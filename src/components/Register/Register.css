@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  color: white;
+}
+
+.gtsya {
+  padding-bottom: 25px;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 52px;
+  padding-bottom: 25px;
+}
+
+.whitecontainerregister {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #393e46;
+  width: 370px;
+  padding: 20px;
+  border-radius: 55px;
+  position: relative;
+  z-index: 1;
+  height: 550px;
+}
+
+.infos {
+  padding-bottom: 2px;
+}
+
+.input-container {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 250px;
+  background-color: #393e46;
+  color: white;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+  outline: none;
+  border-color: #d9e4dd; /* Change border color on focus */
+}
+
+.submitbutton {
+  background-color: #293140; /* Blue background color */
+  color: rgb(255, 255, 255); /* Black text color */
+  /* padding: 14px 26px; Padding around the text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 18px; /* Font size */
+  font-weight: 700;
+  cursor: pointer; /* Cursor style on hover */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth color and transform transition on hover */
+  font-size: 30px;
+  margin-top: 35px;
+}
+
+.submitbutton:hover {
+  background-color: #45536e; /* Blue background color */
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.icon {
+  padding-left: 10px;
+}

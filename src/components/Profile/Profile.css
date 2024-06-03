@@ -1,0 +1,33 @@
+.content-container {
+    display: grid;
+    grid-template-columns: 0fr 7fr; /* Reversed column widths */
+    gap: 5px; /* Adjust gap between columns */
+  }
+  
+  .rightsidecontainer {
+    padding-top: 100px;
+  }
+  
+  .profile-details {
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 25px; 
+  }
+
+  .profile.username {
+    padding-left: 500px;
+    
+  }
+
+  .prousername {
+    padding-bottom: 5px; 
+  }
+  
+  .profile-heading {
+    font-weight: 600;
+    font-size: 36px;
+  }
+
+  .profile-picture {
+    width: 40px;
+  }

@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.dashcontainer {
+    background-color: #222831;
+    color: white;
+}
+
+.content-container {
+    display: flex;
+}
+
+.leftsidebar {
+    background-color: #103268;
+    /* height: 100vh; */
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh; /* Adjust height as needed */
+
+}
+
+.textarea {
+    width: 500px;
+}
+
+.rightsidecontainer {
+    min-height: calc(100vh - 100px); /* Assuming header height is 100px, adjust as needed */
+    flex: 1;
+    background-color: #222831;
+    padding: 20px;
+    color: white;
+    padding-left: 50px;
+}
+
+.tt {
+    padding-top: 45px;
+    padding-bottom: 10px;
+}
+
+.preview {
+    padding-top: 45px;
+    padding-bottom: 10px; /* Remove bottom padding */
+    /* width: 500; */
+}
+
+/* .uploadimage {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */
+
+/* .description {
+    padding-top: 500px;
+} */
+
+.prv {
+    padding-bottom: 35px;
+}
+
+.pdesc {
+    margin-top: 25px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.prvtitle {
+    padding-bottom: 25px;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.title-textarea {
+    padding-left: 2px;
+    border-radius: 5px;
+    width: 180px;
+    height: 30px;
+}
+.description-input {
+    padding-left: 2px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.cyi {
+    padding-top: 45px;
+    padding-bottom: 10px;
+}
+
+.sidebar-link {
+    text-decoration: none;
+    color: white;
+    line-height: 100px;
+    padding-left: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.sidebar-link:hover {
+    color: #aeaeae; /* Change color on hover */
+}
+
+.logout-container {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.logoutlink {
+    text-decoration: none;
+    color: white;
+    padding-left: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.logoutlink:hover {
+    color: #aeaeae; /* Change color on hover */
+}
+
+.icon {
+    padding-right: 8px;
+}
+
+.preview-image{
+    width: 1000px;
+}
+
+.syp {
+    background-color: #393E46; /* Background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Font weight */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    margin-top: 50px;
+}
+
+.syp:hover {
+    background-color: rgb(72, 80, 95); /* Change background color on hover */
+    transform: scale(1.03);
+    border: 1px solid white;
+}
